@@ -3,8 +3,8 @@ import openai
 from streamlit_chat import message as msg
 import os
 
-#SENHA_OPEN_AI = os.getenv("SENHA_OPEN_AI")
-#openai.api_key = SENHA_OPEN_AI
+SENHA_OPEN_AI = os.getenv("SENHA_OPEN_AI")
+openai.api_key = SENHA_OPEN_AI
 
 # URL da imagem do logo no repositório do GitHub
 logo_url = "https://github.com/cristianomaraujo/BioStatBot/blob/main/Capa.jpg?raw=true"
