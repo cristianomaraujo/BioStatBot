@@ -22,13 +22,16 @@ abertura = st.write("Hello! I am BioStatBot, an AI-powered chatbot here to assis
 st.sidebar.markdown(
     """
     <style>
-    .sidebar-title {
-        font-size: 20px;
+    .footer {
+        font-size: 12px;
         text-align: center;
-        font-weight: bold;
     }
     </style>
-    <div class="sidebar-title">Information</div>
+    <div class="footer">
+        BioStatBot enables conversations in over 50 languages. Start chatting in your native language.<br><br>
+        <strong>Discente responsável pelo projeto:</strong> Amanda Cristina Agador<br>
+        <strong>Desenvolvimento e orientação:</strong> Cristiano Miranda de Araujo<br>
+    </div>
     """,
     unsafe_allow_html=True
 )
