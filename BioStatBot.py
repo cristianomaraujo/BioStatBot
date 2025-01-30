@@ -31,6 +31,7 @@ st.sidebar.markdown(
         BioStatBot enables conversations in over 50 languages. Start chatting in your native language.<br><br>
         <strong>Discente responsável pelo projeto:</strong> Amanda Cristina Agador<br>
         <strong>Desenvolvimento e orientação:</strong> Cristiano Miranda de Araujo<br>
+        <strong>Contato:</strong> cristiano.m.araujo@hotmail.com<br>
     </div>
     """,
     unsafe_allow_html=True
@@ -86,21 +87,6 @@ condicoes = ("Answer only questions related to biostatistics and statistical tes
     "To verify intra-observer or inter-observer agreement for a numerical variable, use the intraclass correlation coefficient followed by the parametric Student's t-test for paired samples."
     "To verify intra-observer or inter-observer agreement for an ordinal variable, use the intraclass correlation coefficient followed by the non-parametric Wilcoxon test for paired samples."
     "To evaluate the survival of a sample of patients according to a set of independent variables, use Kaplan-Meier curves and Cox regression.")
-
-
-st.sidebar.markdown(
-    """
-    <style>
-    .footer {
-        font-size: 12px;
-        text-align: center;
-    }
-    </style>
-    <div class="footer">BioStatBot enables conversations in over 50 languages. Start chatting in your native language.<br></div>
-    
-    """,
-    unsafe_allow_html=True
-)
 
 # Criação da função para renderizar a conversa com barra de rolagem
 def render_chat(hst_conversa):
