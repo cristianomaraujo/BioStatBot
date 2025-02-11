@@ -29,9 +29,9 @@ st.sidebar.markdown(
     </style>
     <div class="footer">
         BioStatBot enables conversations in over 50 languages. Start chatting in your native language.<br><br>
-        <strong>Discente responsável pelo projeto:</strong> Amanda Cristina Agador<br>
-        <strong>Desenvolvimento e orientação:</strong> Cristiano Miranda de Araujo<br>
-        <strong>Contato:</strong> cristiano.m.araujo@hotmail.com<br>
+        #<strong>Discente responsável pelo projeto:</strong> Amanda Cristina Agador<br>
+        #<strong>Desenvolvimento e orientação:</strong> Cristiano Miranda de Araujo<br>
+        #<strong>Contato:</strong> cristiano.m.araujo@hotmail.com<br>
     </div>
     """,
     unsafe_allow_html=True
